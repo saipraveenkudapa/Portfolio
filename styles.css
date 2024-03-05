@@ -7,7 +7,7 @@ body {
     font-family: 'Poppins', 'Open Sans';
     max-height: 100vh;
     margin: 0;
-  
+  }
 body, html {
     width: 100%;
     height: 100%;
@@ -21,14 +21,31 @@ body, html {
     width: 130.3333%; /* Increase width to fit zoomed out content */
     height: 130.3333%; /* Increase height to fit zoomed out content */
 }
+header {
+    padding: 1.2rem 1rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Ensure the header is full width */
+    position: fixed; /* Fixed at the top */
+    top: 0;
+    left:0;
+    /* Align to the left edge */
+    z-index: 10; /* Ensure it's above other content */
 }
-header, #about {
+
+header {
     font-family: 'Montserrat', sans-serif;
+    font-size: 47px;
 }
-body {
-    font-family: 'Poppins', sans-serif;
-    /* Other body styles */
+#about {
+    font-family: 'DM Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
 }
+
+
 
 .logo {
     font-size: 1.2rem;
@@ -182,18 +199,7 @@ section {
     margin-top: -100px; /* Same value as padding-top but negative */
 }
 /* Ensure that the header is above the content when scrolled */
-header {
-    padding: 1.2rem 1rem;
-    background-color: #fff;
-    display: flex;
-    justify-content: space-between;
-    width: 100%; /* Ensure the header is full width */
-    position: fixed; /* Fixed at the top */
-    top: 0;
-    left:0;
-    /* Align to the left edge */
-    z-index: 10; /* Ensure it's above other content */
-}
+
 #Home {
     padding-top: 100px; /* Adjust this value based on your header's actual height */
 }
