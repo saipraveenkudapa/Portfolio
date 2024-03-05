@@ -18,8 +18,8 @@ body, html {
     transform-origin: top left; /* Adjust as needed */
     transform: scale(0.75);
     transform-origin: 0 0;
-    width: 75.3333%; /* Increase width to fit zoomed out content */
-    height: 75.3333%; /* Increase height to fit zoomed out content */
+    width: 130.3333%; /* Increase width to fit zoomed out content */
+    height: 130.3333%; /* Increase height to fit zoomed out content */
 }
 }
 header, #about {
@@ -528,7 +528,7 @@ to {
 
 .contact-section h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     color: #244D61;
     margin-bottom: 20px;
 }
@@ -541,7 +541,7 @@ to {
 
 .contact-info li {
     margin-bottom: 10px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .contact-info li i {
