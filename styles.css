@@ -8,7 +8,19 @@ body {
     max-height: 100vh;
     margin: 0;
   
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
 
+.main-container {
+    transform-origin: top left; /* Adjust as needed */
+    transform: scale(0.75);
+    transform-origin: 0 0;
+    width: 75.3333%; /* Increase width to fit zoomed out content */
+    height: 75.3333%; /* Increase height to fit zoomed out content */
+}
 }
 header, #about {
     font-family: 'Montserrat', sans-serif;
