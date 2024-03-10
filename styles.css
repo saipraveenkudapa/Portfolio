@@ -45,7 +45,17 @@ header {
   font-style: normal;
 }
 
+#about .detail p {
+    font-size: 22px; /* Adjust the paragraph font size within the about section as needed */
+    /* ... other styles ... */
+}
 
+/* Resume Button Styles */
+.resume-button {
+    padding: 8px 12px; /* Adjust padding to reduce button size */
+    font-size: 14px; /* Adjust font size for smaller text */
+    /* ... other existing styles ... */
+}
 
 .logo {
     font-size: 1.2rem;
@@ -507,7 +517,8 @@ to {
 }
 .resume-button {
     display: inline-block;
-    padding: 10px 15px;
+    padding: 8px 12px; /* Adjust padding to reduce button size */
+    font-size: 22px; /* Adjust font size for smaller text */
     margin-top: 30px; /* Adjust as needed */
     background-color: #244D61; /* Button color */
     color: white; /* Text color */
