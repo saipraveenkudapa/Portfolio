@@ -60,14 +60,15 @@ header {
     }
 
     .detail{
-        text-align: center;
+        text-align: left;
 
     }
     .main .social {
     justify-content: center; /* Horizontally center the flex items */
     width: 100%; /* Take up full width to allow centering */
-     }
+    }
 
+    
 }
 
 header {
@@ -83,7 +84,7 @@ header {
 
 #about .detail p {
     font-size: 22px;
-    font-weight: bolder ; /* Adjust the paragraph font size within the about section as needed */
+    font-weight: 300 ; /* Adjust the paragraph font size within the about section as needed */
     /* ... other styles ... */
 }
 
