@@ -82,7 +82,8 @@ header {
 }
 
 #about .detail p {
-    font-size: 22px; /* Adjust the paragraph font size within the about section as needed */
+    font-size: 22px;
+    font-weight: bolder ; /* Adjust the paragraph font size within the about section as needed */
     /* ... other styles ... */
 }
 
