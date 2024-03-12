@@ -34,6 +34,42 @@ header {
     z-index: 10; /* Ensure it's above other content */
 }
 
+.video video {
+    max-width: 50%;
+    float: left;
+}
+
+
+/* Default styles for desktop */
+.video .desktop-video {
+    display: block; /* Show desktop video by default */
+}
+
+.video .mobile-video {
+    display: none; /* Hide mobile video by default */
+}
+
+/* Styles for screens smaller than 768px */
+@media only screen and (max-width: 1368px) {
+    .video .desktop-video {
+        display: none; /* Hide desktop video on small screens */
+    }
+
+    .video .mobile-video {
+        display: block; /* Show mobile video on small screens */
+    }
+
+    .detail{
+        text-align: center;
+
+    }
+    .main .social {
+    justify-content: center; /* Horizontally center the flex items */
+    width: 100%; /* Take up full width to allow centering */
+     }
+
+}
+
 header {
     font-family: 'Montserrat', sans-serif;
     font-size: 47px;
@@ -544,8 +580,9 @@ to {
 }
 
 .contact-section h2 {
+    padding: 40px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem;
+    font-size: 2.6rem; /* Smaller than before for simplicity */
     color: #244D61;
     margin-bottom: 20px;
 }
@@ -558,14 +595,11 @@ to {
 
 .contact-info li {
     margin-bottom: 10px;
-    font-size: 1.4rem;
+    font-size: 1.2rem; /* Smaller and simpler */
 }
 
 .contact-info li i {
-    color: #244D61;
-    width: 24px;
-    text-align: center;
-    margin-right: 10px;
+    margin-right: 8px; /* Less space for a compact look */
 }
 
 .contact-info a {
@@ -574,15 +608,12 @@ to {
     transition: color 0.3s ease;
 }
 
-.contact-info a:hover {
-    color: #1a3548;
-}
-
 .copy-rights {
     margin-top: 20px;
     color: #666;
-    font-size: 0.8rem;
+    font-size: 0.8rem; /* Smaller for subtlety */
 }
+
 
 /* Responsive styles */
 @media (max-width: 768px) {
