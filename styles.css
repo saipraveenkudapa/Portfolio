@@ -219,13 +219,13 @@ nav a.active-link {
 }
 
 .hero-text h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
 }
 
 .hero-text p {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     margin-bottom: 1.5rem;
 }
 
@@ -357,7 +357,7 @@ nav a.active-link {
 }
 
 .contact-section h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     color: #244d61;
     margin-bottom: 2rem;
 }
@@ -369,11 +369,11 @@ nav a.active-link {
 
 .contact-info li {
     margin-bottom: 1rem;
-    font-size: 1.1rem;
+    font-size: 2rem;
 }
 
 .contact-info li i {
-    margin-right: 0.5rem;
+    margin-right: 1.0rem;
 }
 
 .contact-info a {
@@ -383,7 +383,7 @@ nav a.active-link {
 
 .copy-rights {
     color: #666;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
 }
 
 /* Animation for skills scroller */
