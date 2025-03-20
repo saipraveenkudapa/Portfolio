@@ -61,7 +61,6 @@ $(document).ready(function () {
      */
     const typed = new Typed('#typed', {
         strings: [
-            "I'm a Software Developer",
             "I'm a Data Analyst",
             "I'm <span style='color:#244D61;'>Sai Praveen</span>"
         ],
