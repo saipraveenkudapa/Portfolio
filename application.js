@@ -1,15 +1,13 @@
 $(document).ready(function () {
-    // Initialize variables
+   
     let lastScrollTop = 0;
     const headerHeight = $('header').outerHeight();
 
-    /*
-     * 1. Smooth Scrolling for navigation links
-     */
+    
     $('a[href^="#"]').on('click', function (e) {
         e.preventDefault();
         
-        // Close mobile menu if open
+        
         $('#click').prop('checked', false);
         
         const target = $($(this).attr('href'));
@@ -20,9 +18,7 @@ $(document).ready(function () {
         }
     });
 
-    /*
-     * 2. Active Navigation Link Update
-     */
+    
     function updateActiveLink() {
         const scrollPosition = $(window).scrollTop() + headerHeight + 50;
 
@@ -39,14 +35,12 @@ $(document).ready(function () {
         });
     }
 
-    // Update active link on scroll
+    
     $(window).on('scroll', function() {
         updateActiveLink();
     });
 
-    /*
-     * 3. Initialize AOS (Animate On Scroll)
-     */
+    
     AOS.init({
         duration: 800,
         easing: 'ease-in-out',
@@ -56,9 +50,7 @@ $(document).ready(function () {
         disable: 'mobile'
     });
 
-    /*
-     * 4. Initialize Typed.js
-     */
+    
     const typed = new Typed('#typed', {
         strings: [
             "I'm a Data Analyst",
@@ -75,9 +67,7 @@ $(document).ready(function () {
         autoInsertCss: true
     });
 
-    /*
-     * 5. Skills Section Infinite Scroll
-     */
+   
     function initializeScrollers() {
         const scrollers = document.querySelectorAll('.scroller');
 
@@ -103,9 +93,7 @@ $(document).ready(function () {
 
     initializeScrollers();
 
-    /*
-     * 6. Dripping Background Effect
-     */
+    
     function createDrippingBackground() {
         const container = document.getElementById('drippingColorsBackground');
         const colors = [
@@ -127,14 +115,12 @@ $(document).ready(function () {
 
     createDrippingBackground();
 
-    /*
-     * 7. Mobile Menu Handling
-     */
+   
     $('.menu').on('click', function() {
         $('nav').toggleClass('active');
     });
 
-    // Close mobile menu when clicking outside
+    
     $(document).on('click', function(e) {
         if (!$(e.target).closest('header').length) {
             $('#click').prop('checked', false);
@@ -142,15 +128,13 @@ $(document).ready(function () {
         }
     });
 
-    /*
-     * 8. Scroll to Top Button
-     */
+   
     const scrollTopButton = $('<button>', {
         class: 'scroll-top-btn',
         html: '<i class="bi bi-arrow-up"></i>'
     }).appendTo('body');
 
-    // Show/Hide scroll to top button
+  
     $(window).scroll(function() {
         if ($(this).scrollTop() > 300) {
             scrollTopButton.addClass('show');
@@ -159,15 +143,13 @@ $(document).ready(function () {
         }
     });
 
-    // Scroll to top on button click
+   
     scrollTopButton.click(function() {
         $('html, body').animate({scrollTop: 0}, 800);
         return false;
     });
 
-    /*
-     * 9. Image Lazy Loading
-     */
+    
     function lazyLoadImages() {
         const imageObserver = new IntersectionObserver((entries, observer) => {
             entries.forEach(entry => {
@@ -191,10 +173,7 @@ $(document).ready(function () {
         lazyLoadImages();
     }
 
-    /*
-     * 10. Performance Optimization
-     */
-    // Debounce function
+    
     function debounce(func, wait) {
         let timeout;
         return function executedFunction(...args) {
@@ -207,29 +186,24 @@ $(document).ready(function () {
         };
     }
 
-    // Debounced scroll handler
+    
     const debouncedScroll = debounce(function() {
         updateActiveLink();
     }, 150);
 
-    // Use debounced handler for scroll events
+ 
     $(window).on('scroll', debouncedScroll);
 
-    /*
-     * 11. Error Handling
-     */
+    
     window.onerror = function(msg, url, lineNo, columnNo, error) {
         console.error('Error: ' + msg + '\nURL: ' + url + '\nLine: ' + lineNo + '\nColumn: ' + columnNo + '\nError object: ' + JSON.stringify(error));
         return false;
     };
 
-    /*
-     * 12. Initial Setup
-     */
-    // Trigger initial active link update
+   
     updateActiveLink();
 
-    // Add loading attribute to images
+   
     $('img').each(function() {
         if (!$(this).attr('loading')) {
             $(this).attr('loading', 'lazy');
@@ -237,5 +211,4 @@ $(document).ready(function () {
     });
 });
 
-// Add CSS variable for smooth scrolling to html element
 document.documentElement.style.setProperty('--scroll-behavior', 'smooth');
