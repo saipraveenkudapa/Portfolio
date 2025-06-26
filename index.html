@@ -1,177 +1,515 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sai Praveen K</title>
-
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
-    rel="stylesheet"
-  />
-
-
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
-  />
-
-
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/aos@next/dist/aos.css"
-  />
-
-
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
- 
-  <div id="drippingColorsBackground"></div>
-
-  
-  <header>
-    <div class="logo">
-      <a href="#home"><img src="image2.png" alt="Logo" /></a>
-    </div>
-    <input type="checkbox" id="click" />
-    <label for="click" class="menu">
-      <i class="bi bi-list"></i>
-    </label>
-    <nav>
-      <a href="#home" class="active-link">Home</a>
-      <a href="#about">About Me</a>
-      <!-- <a href="#skills">Technologies</a> -->
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
-
-  
-  <main>
-    <!-- Home Section -->
-    <section id="home" class="section hero-section">
-      <div class="section-content hero-content">
-        <div class="video">
-          <video class="desktop-video" autoplay loop muted playsinline>
-            <source src="Video.mp4" type="video/mp4" />
-          </video>
-          <video class="mobile-video" autoplay loop muted playsinline>
-            <source src="Mobile.mp4" type="video/mp4" />
-          </video>
-        </div>
-
-        <div class="hero-text">
-          <h1>
-            Hi, It's Me <br />
-            <span id="typed"></span>
-          </h1>
-          <p>
-            Data Analyst specializing in data processing, visualization, and predictive analytics. Skilled in SQL, Python, and AWS, transforming complex data into actionable business insights.
-          </p>
-          <div class="social">
-            
-            <a
-              href="https://www.linkedin.com/in/sai-praveen-k-787257186/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i class="bi bi-linkedin"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="section">
-      <div class="section-content">
-        <h2 class="section-title" data-aos="fade-up">About Me</h2>
-        <div class="main about-main" data-aos="fade-up" data-aos-delay="100">
-          <div class="images">
-            <img src="profile.png" alt="Sai Praveen" loading="lazy" />
-          </div>
-          <div class="detail">
-            <p>
-              Hello, I'm <strong>Sai Praveen Kudapa</strong>, a dedicated
-              software developer with a <strong>Master's degree in Computer
-              Science</strong> from Stevens Institute of Technology. With over
-              4 years of experience, I specialize in cloud computing and data analytics.
-            </p>
-            <p> As a <strong>Data Analyst</strong> at NRG Energy, Inc, I specialize in optimizing SQL queries and automating data pipelines using AWS services. I develop real-time Tableau dashboards connected with AWS Athena, providing key insights into business performance.  </p> 
-            <p> During my tenure as a <strong>Jr. Data Analyst</strong> at Vsevse Systems, I focused on building interactive dashboards in Tableau and Power BI, developing ETL pipelines, and leading predictive analytics projects to enhance demand forecasting. </p> 
-            <p> As a <strong>Data Analyst Intern</strong> at Siva Sai IT Solutions, I built and maintained data pipelines, conducted exploratory data analysis to optimize inventory levels, and automated reporting workflows using SQL and Python. </p>
-           
-            <a href="SaiPraveenKudapa.docx" class="resume-button" target="_blank" rel="noopener">
-              Checkout My Resume
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Skills Section 
-    <section id="skills" class="section">
-      <div class="section-content">
-        <h2 class="section-title" data-aos="fade-up">Tools & Technologies</h2>
-
-        <div class="scroller" data-speed="fast" data-aos="fade-up" data-aos-delay="100">
-          <ul class="tag-list scroller__inner">
-            <li><img src="logo/HTML.webp" alt="HTML Logo" loading="lazy" /></li>
-            <li><img src="logo/CSS.webp" alt="CSS Logo" loading="lazy" /></li>
-            <li><img src="logo/Javascript.png" alt="JavaScript Logo" loading="lazy" /></li>
-            <li><img src="logo/Python.png" alt="Python Logo" loading="lazy" /></li>
-            <li><img src="logo/Sql_logo.png" alt="SQL Logo" loading="lazy" /></li>
-          </ul>
-        </div>
-
-        <div class="scroller" data-speed="fast" data-aos="fade-up" data-aos-delay="150">
-          <ul class="tag-list scroller__inner">
-            <li><img src="logo/MYSQLServer.jpg" alt="SQL Server" loading="lazy" /></li>
-            <li><img src="logo/Oracle_Logo.jpg" alt="Oracle Logo" loading="lazy" /></li>
-            <li><img src="logo/Tableau.jpeg" alt="Tableau Logo" loading="lazy" /></li>
-            <li><img src="logo/MongoDB-Logo.png" alt="MongoDB Logo" loading="lazy" /></li>
-            <li><img src="logo/AMS.png" alt="AWS Logo" loading="lazy" /></li>
-          </ul>
-        </div>
-      </div>
-    </section>
-   -->
-    <!-- Contact Section -->
-    <section id="contact" class="section contact-section">
-      <div class="section-content">
-        <h2 class="section-title" data-aos="fade-up">Contact Me</h2>
-        <ul class="contact-info" data-aos="fade-up" data-aos-delay="100">
-          <li>
-            <i class="bi bi-envelope-fill"></i>
-            <a href="mailto:saipraveenkudapa@gmail.com">saipraveenkudapa@gmail.com</a>
-          </li>
-          <li>
-            <i class="bi bi-telephone-fill"></i>
-            <a href="tel:+17325858362">+1 (732) 585-8362</a>
-          </li>
-          <li>
-            <i class="bi bi-linkedin"></i>
-            <a
-              href="https://www.linkedin.com/in/sai-praveen-k-787257186/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              linkedin.com/in/sai-praveen-kudapa
-            </a>
-          </li>
-        </ul>
-        <p class="copy-rights">
-          &copy; 2024 Sai Praveen Kudapa. All Rights Reserved.
-        </p>
-      </div>
-    </section>
-  </main>
-
-  
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sai Praveen Kudapa | Software Engineer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  <script src="application.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="min-h-screen">
+  <!-- Header -->
+  <header class="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm border-b border-gray-200">
+    <div class="container mx-auto px-6 py-4">
+      <div class="flex items-center justify-between">
+        <a href="#home" class="text-2xl font-bold gradient-text">SK</a>
+        <nav class="hidden md:flex space-x-8">
+          <a href="#home" class="nav-link text-gray-700 hover:text-gray-900 font-medium transition">Home</a>
+          <a href="#about" class="nav-link text-gray-700 hover:text-gray-900 font-medium transition">About</a>
+          <a href="#experience" class="nav-link text-gray-700 hover:text-gray-900 font-medium transition">Experience</a>
+          <a href="#contact" class="nav-link text-gray-700 hover:text-gray-900 font-medium transition">Contact</a>
+        </nav>
+        <button id="menu-toggle" class="md:hidden text-gray-700 hover:text-gray-900">
+          <i class="bi bi-list text-2xl"></i>
+        </button>
+      </div>
+      <div id="mobile-menu" class="hidden md:hidden mt-4 space-y-2">
+        <a href="#home" class="block mobile-nav-link nav-link text-gray-700 hover:text-gray-900 font-medium py-2 transition">Home</a>
+        <a href="#about" class="block mobile-nav-link nav-link text-gray-700 hover:text-gray-900 font-medium py-2 transition">About</a>
+        <a href="#experience" class="block mobile-nav-link nav-link text-gray-700 hover:text-gray-900 font-medium py-2 transition">Experience</a>
+        <a href="#contact" class="block mobile-nav-link nav-link text-gray-700 hover:text-gray-900 font-medium py-2 transition">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Color blobs background -->
+  <div class="blob bg-blue-500 w-64 h-64 rounded-full absolute top-20 left-20"></div>
+  <div class="blob bg-purple-500 w-72 h-72 rounded-full absolute bottom-20 right-20"></div>
+  <div class="blob bg-indigo-500 w-80 h-80 rounded-full absolute top-1/2 left-1/3"></div>
+
+  <!-- Hero Section -->
+  <section id="home" class="min-h-screen flex items-center pt-20 pb-16 px-6">
+    <div class="container mx-auto">
+      <div class="flex flex-col md:flex-row-reverse items-center">
+        <div class="md:w-1/2 mb-12 md:mb-0 md:pl-12" data-aos="fade-left">
+          <h1 class="text-4xl md:text-6xl font-bold mb-4">
+            Hi, I'm <span class="gradient-text">Sai Praveen Kudapa</span>
+          </h1>
+          <div class="text-xl md:text-2xl mb-6">
+            <span id="typed" class="font-medium"></span>
+          </div>
+          <p class="text-gray-600 mb-8 max-w-lg">
+            Full Stack Developer specializing in modern web technologies with expertise in cloud services, AI integration, and creating performant, scalable applications.
+          </p>
+          <div class="flex space-x-4">
+            <a href="#contact" class="px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg font-medium hover:opacity-90 transition text-white">
+              Contact Me
+            </a>
+            <a href="#experience" class="px-6 py-3 border border-gray-400 rounded-lg font-medium hover:bg-gray-100 transition text-gray-700">
+              View Experience
+            </a>
+          </div>
+          <div class="flex mt-8 space-x-4">
+            <a href="https://www.linkedin.com/in/sai-praveen-k-787257186/" target="_blank" class="text-gray-600 hover:text-gray-900 text-2xl">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://github.com/saipraveenkudapa" target="_blank" class="text-gray-600 hover:text-gray-900 text-2xl">
+              <i class="bi bi-github"></i>
+            </a>
+          </div>
+        </div>
+        <div class="md:w-1/2 flex justify-center" data-aos="fade-right">
+          <div class="relative floating">
+            <div class="w-80 h-80 md:w-[500px] md:h-[500px] bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center profile-ring">
+              <div class="w-72 h-72 md:w-[470px] md:h-[470px] bg-white rounded-full overflow-hidden border-4 border-gray-300">
+                <img src="profile.jpeg" alt="Sai Praveen Kudapa" class="w-full h-full object-cover object-center">
+              </div>
+            </div>
+            <div class="absolute -bottom-6 -right-6 bg-white px-4 py-2 rounded-lg shadow-lg border border-gray-200">
+              <div class="flex items-center">
+                <div class="w-3 h-3 bg-green-500 rounded-full mr-2"></div>
+                <span class="text-sm text-gray-700">Available for work</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 px-6">
+    <div class="container mx-auto">
+      <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center" data-aos="fade-up">
+        <span class="gradient-text">About Me</span>
+      </h2>
+      
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <!-- About Card 1 -->
+        <div class="about-card p-8 rounded-xl" data-aos="fade-up" data-aos-delay="100">
+          <div class="flex items-center mb-6">
+            <div class="w-12 h-12 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center mr-4">
+              <i class="bi bi-person text-white text-xl"></i>
+            </div>
+            <h3 class="text-xl font-bold">Who I Am</h3>
+          </div>
+          <p class="text-gray-600">
+            I'm a passionate Software Engineer with strong foundations in modern web development technologies and cloud services. I combine technical expertise with creative problem-solving to build exceptional digital experiences.
+          </p>
+        </div>
+        
+        <!-- About Card 2 -->
+        <div class="about-card p-8 rounded-xl" data-aos="fade-up" data-aos-delay="200">
+          <div class="flex items-center mb-6">
+            <div class="w-12 h-12 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center mr-4">
+              <i class="bi bi-mortarboard text-white text-xl"></i>
+            </div>
+            <h3 class="text-xl font-bold">Education</h3>
+          </div>
+          <div class="space-y-4">
+            <div>
+              <h4 class="font-medium text-gray-900">Master of Science (MS) | Computer Science</h4>
+              <p class="text-gray-600 text-sm">Stevens Institute of Technology, Hoboken, NJ | Dec 2023</p>
+            </div>
+            <div>
+              <h4 class="font-medium text-gray-900">Bachelor of Science (B-Tech) | Computer Science & Engineering</h4>
+              <p class="text-gray-600 text-sm">Amrita School of Engineering, Bangalore, India | Jul 2020</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- About Card 3 -->
+        <div class="about-card p-8 rounded-xl" data-aos="fade-up" data-aos-delay="300">
+          <div class="flex items-center mb-6">
+            <div class="w-12 h-12 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center mr-4">
+              <i class="bi bi-award text-white text-xl"></i>
+            </div>
+            <h3 class="text-xl font-bold">Certifications</h3>
+          </div>
+          <div class="flex flex-wrap gap-3">
+            <span class="tech-badge px-3 py-1 rounded-full text-sm flex items-center">
+              <i class="bi bi-patch-check-fill text-blue-400 mr-1"></i>
+              AWS Certified Associate Developer (2024)
+            </span>
+            <span class="tech-badge px-3 py-1 rounded-full text-sm flex items-center">
+              <i class="bi bi-patch-check-fill text-blue-400 mr-1"></i>
+              Google Data Analytics Certification (2023)
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="py-20 px-6 bg-gray-50">
+    <div class="container mx-auto">
+      <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center text-gray-900" data-aos="fade-up">
+        <span class="gradient-text">Technical Skills</span>
+      </h2>
+      
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6" data-aos="fade-up">
+        <!-- Languages -->
+        <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
+          <div class="flex items-center mb-4">
+            <div class="w-10 h-10 rounded-full bg-blue-500 flex items-center justify-center mr-3">
+              <i class="bi bi-code text-white"></i>
+            </div>
+            <h3 class="text-xl font-bold text-gray-900">Languages</h3>
+          </div>
+          <ul class="space-y-2">
+            <li class="flex items-center">
+              <i class="bi bi-check-circle-fill text-blue-500 mr-2"></i>
+              <span class="text-gray-700">HTML5/CSS3</span>
+            </li>
+            <li class="flex items-center">
+              <i class="bi bi-check-circle-fill text-blue-500 mr-2"></i>
+              <span class="text-gray-700">JavaScript</span>
+            </li>
+            <li class="flex items-center">
+              <i class="bi bi-check-circle-fill text-blue-500 mr-2"></i>
+              <span class="text-gray-700">Python</span>
+            </li>
+            <li class="flex items-center">
+              <i class="bi bi-check-circle-fill text-blue-500 mr-2"></i>
+              <span class="text-gray-700">Core Java</span>
+            </li>
+            <li class="flex items-center">
+              <i class="bi bi-check-circle-fill text-blue-500 mr-2"></i>
+              <span class="text-gray-700">C#</span>
+            </li>
+            <li class="flex items-center">
+              <i class="bi bi-check-circle-fill text-blue-500 mr-2"></i>
+              <span class="text-gray-700">SQL</span>
+            </li>
+          </ul>
+        </div>
+        
+        <!-- Frameworks -->
+        <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
+          <div class="flex items-center mb-4">
+            <div class="w-10 h-10 rounded-full bg-purple-500 flex items-center justify-center mr-3">
+              <i class="bi bi-layers text-white"></i>
+            </div>
+            <h3 class="text-xl font-bold text-gray-900">Frameworks</h3>
+          </div>
+          <ul class="space-y-2">
+            <li class="flex items-center">
+              <i class="bi bi-check-circle-fill text-purple-500 mr-2"></i>
+              <span class="text-gray-700">Svelte/SvelteKit</span>
+            </li>
+            <li class="flex items-center">
+              <i class="bi bi-check-circle-fill text-purple-500 mr-2"></i>
+              <span class="text-gray-700">React/Next.js</span>
+            </li>
+            <li class="flex items-center">
+              <i class="bi bi-check-circle-fill text-purple-500 mr-2"></i>
+              <span class="text-gray-700">Node.js</span>
+            </li>
+            <li class="flex items-center">
+              <i class="bi bi-check-circle-fill text-purple-500 mr-2"></i>
+              <span class="text-gray-700">Three.js</span>
+            </li>
+            <li class="flex items-center">
+              <i class="bi bi-check-circle-fill text-purple-500 mr-2"></i>
+              <span class="text-gray-700">.NET Core</span>
+            </li>
+          </ul>
+        </div>
+        
+        <!-- Cloud & DevOps -->
+        <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
+          <div class="flex items-center mb-4">
+            <div class="w-10 h-10 rounded-full bg-indigo-500 flex items-center justify-center mr-3">
+              <i class="bi bi-cloud text-white"></i>
+            </div>
+            <h3 class="text-xl font-bold text-gray-900">Cloud & DevOps</h3>
+          </div>
+          <ul class="space-y-2">
+            <li class="flex items-center">
+              <i class="bi bi-check-circle-fill text-indigo-500 mr-2"></i>
+              <span class="text-gray-700">AWS (Lambda, S3, EC2)</span>
+            </li>
+            <li class="flex items-center">
+              <i class="bi bi-check-circle-fill text-indigo-500 mr-2"></i>
+              <span class="text-gray-700">Vercel</span>
+            </li>
+            <li class="flex items-center">
+              <i class="bi bi-check-circle-fill text-indigo-500 mr-2"></i>
+              <span class="text-gray-700">Docker/Kubernetes</span>
+            </li>
+            <li class="flex items-center">
+              <i class="bi bi-check-circle-fill text-indigo-500 mr-2"></i>
+              <span class="text-gray-700">Jenkins</span>
+            </li>
+            <li class="flex items-center">
+              <i class="bi bi-check-circle-fill text-indigo-500 mr-2"></i>
+              <span class="text-gray-700">Terraform</span>
+            </li>
+            <li class="flex items-center">
+              <i class="bi bi-check-circle-fill text-indigo-500 mr-2"></i>
+              <span class="text-gray-700">CI/CD Pipelines</span>
+            </li>
+          </ul>
+        </div>
+        
+        <!-- Tools & Other -->
+        <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
+          <div class="flex items-center mb-4">
+            <div class="w-10 h-10 rounded-full bg-pink-500 flex items-center justify-center mr-3">
+              <i class="bi bi-tools text-white"></i>
+            </div>
+            <h3 class="text-xl font-bold text-gray-900">Tools & Other</h3>
+          </div>
+          <ul class="space-y-2">
+            <li class="flex items-center">
+              <i class="bi bi-check-circle-fill text-pink-500 mr-2"></i>
+              <span class="text-gray-700">Git/GitHub</span>
+            </li>
+            <li class="flex items-center">
+              <i class="bi bi-check-circle-fill text-pink-500 mr-2"></i>
+              <span class="text-gray-700">Tableau/Power BI</span>
+            </li>
+            <li class="flex items-center">
+              <i class="bi bi-check-circle-fill text-pink-500 mr-2"></i>
+              <span class="text-gray-700">FFmpeg</span>
+            </li>
+            <li class="flex items-center">
+              <i class="bi bi-check-circle-fill text-pink-500 mr-2"></i>
+              <span class="text-gray-700">Hugging Face</span>
+            </li>
+            <li class="flex items-center">
+              <i class="bi bi-check-circle-fill text-pink-500 mr-2"></i>
+              <span class="text-gray-700">Agile/Scrum</span>
+            </li>
+            <li class="flex items-center">
+              <i class="bi bi-check-circle-fill text-pink-500 mr-2"></i>
+              <span class="text-gray-700">Shopify/Zoey</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="py-20 px-6 gradient-bg">
+    <div class="container mx-auto">
+      <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center" data-aos="fade-up">
+        <span class="gradient-text">Work Experience</span>
+      </h2>
+      
+      <div class="max-w-4xl mx-auto">
+        <!-- Layerd -->
+        <div class="mb-16" data-aos="fade-up">
+          <div class="flex items-start mb-4">
+            <div class="bg-blue-500 p-3 rounded-lg mr-4">
+              <i class="bi bi-briefcase text-white text-xl"></i>
+            </div>
+            <div>
+              <h3 class="text-2xl font-bold text-gray-900">Software Engineer</h3>
+              <p class="text-gray-600">Layerd, TX | April 2025 – Present</p>
+            </div>
+          </div>
+          
+          <div class="ml-16 pl-4 border-l-2 border-gray-300">
+            <div class="mb-6">
+              <h4 class="text-lg font-semibold mb-2 text-gray-900">Online File Conversion Platform</h4>
+              <ul class="list-disc pl-5 space-y-2 text-gray-600">
+                <li>Developed full-stack web platform for file conversion using Next.js 14, AWS Lambda, and Python</li>
+                <li>Integrated client-side technologies to reduce server load and enable offline processing</li>
+              </ul>
+            </div>
+                        
+            <div class="mb-6">
+              <h4 class="text-lg font-semibold mb-2 text-gray-900">Voice-to-Text with Speaker Distortion</h4>
+              <ul class="list-disc pl-5 space-y-2 text-gray-600">
+                <li>Engineered transcription pipeline using OpenAI Whisper and PyAnnote for speaker diarization</li>
+                <li>Applied audio preprocessing to reduce noise and enhance clarity</li>
+              </ul>
+            </div>
+                        
+            <div>
+              <h4 class="text-lg font-semibold mb-2 text-gray-900">LEGO Campaign Landing Page</h4>
+              <ul class="list-disc pl-5 space-y-2 text-gray-600">
+                <li>Designed mobile-first campaign landing page using HTML5, Tailwind CSS, and JavaScript</li>
+                <li>Optimized for performance and SEO with Lighthouse audits</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Abraham Sons & Leathers -->
+        <div class="mb-16" data-aos="fade-up">
+          <div class="flex items-start mb-4">
+            <div class="bg-purple-500 p-3 rounded-lg mr-4">
+              <i class="bi bi-graph-up text-white text-xl"></i>
+            </div>
+            <div>
+              <h3 class="text-2xl font-bold text-gray-900">Data Analyst Intern</h3>
+              <p class="text-gray-600">Abraham Sons & Leathers, NY | Sep 2024 – Nov 2024</p>
+            </div>
+          </div>
+          
+          <div class="ml-16 pl-4 border-l-2 border-gray-300">
+            <ul class="list-disc pl-5 space-y-2 text-gray-600">
+              <li>Automated reporting pipelines for Shopify and Zoey platforms using Python and SQL</li>
+              <li>Designed interactive dashboards in Tableau and Power BI for real-time business insights</li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Siva Sai IT Solutions -->
+        <div data-aos="fade-up">
+          <div class="flex items-start mb-4">
+            <div class="bg-indigo-500 p-3 rounded-lg mr-4">
+              <i class="bi bi-code-slash text-white text-xl"></i>
+            </div>
+            <div>
+              <h3 class="text-2xl font-bold text-gray-900">Full Stack Developer</h3>
+              <p class="text-gray-600">Siva Sai IT Solutions, India | Aug 2020 – Aug 2022</p>
+            </div>
+          </div>
+          
+          <div class="ml-16 pl-4 border-l-2 border-gray-300">
+            <ul class="list-disc pl-5 space-y-2 text-gray-600">
+              <li>Engineered custom ERP modules for HR, Inventory, and Billing using .NET Core and React</li>
+              <li>Developed RESTful APIs and implemented secure authentication workflows</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 px-6 gradient-bg">
+    <div class="container mx-auto">
+      <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center" data-aos="fade-up">
+        <span class="gradient-text">Get In Touch</span>
+      </h2>
+      
+      <div class="max-w-4xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div data-aos="fade-right">
+            <h3 class="text-2xl font-bold mb-6 text-gray-900">Contact Information</h3>
+            
+            <div class="space-y-6">
+              <div class="flex items-start">
+                <div class="bg-blue-500 p-3 rounded-lg mr-4">
+                  <i class="bi bi-envelope text-white"></i>
+                </div>
+                <div>
+                  <h4 class="font-medium text-gray-900">Email</h4>
+                  <a href="mailto:saipraveenkudapa@gmail.com" class="text-gray-600 hover:text-gray-900 transition">saipraveenkudapa@gmail.com</a>
+                </div>
+              </div>
+              
+              <div class="flex items-start">
+                <div class="bg-purple-500 p-3 rounded-lg mr-4">
+                  <i class="bi bi-phone text-white"></i>
+                </div>
+                <div>
+                  <h4 class="font-medium text-gray-900">Phone</h4>
+                  <a href="tel:+17325858362" class="text-gray-600 hover:text-gray-900 transition">+1 (732) 585-8362</a>
+                </div>
+              </div>
+              
+              <div class="flex items-start">
+                <div class="bg-indigo-500 p-3 rounded-lg mr-4">
+                  <i class="bi bi-linkedin text-white"></i>
+                </div>
+                <div>
+                  <h4 class="font-medium text-gray-900">LinkedIn</h4>
+                  <a href="https://www.linkedin.com/in/sai-praveen-k-787257186/" target="_blank" class="text-gray-600 hover:text-gray-900 transition">linkedin.com/in/sai-praveen-kudapa</a>
+                </div>
+              </div>
+              
+              <div class="flex items-start">
+                <div class="bg-green-500 p-3 rounded-lg mr-4">
+                  <i class="bi bi-github text-white"></i>
+                </div>
+                <div>
+                  <h4 class="font-medium text-gray-900">GitHub</h4>
+                  <a href="https://github.com/saipraveenkudapa" target="_blank" class="text-gray-600 hover:text-gray-900 transition">github.com/saipraveenkudapa</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div data-aos="fade-left">
+            <h3 class="text-2xl font-bold mb-6 text-gray-900">Send Me a Message</h3>
+            
+            <form id="contactForm" class="space-y-4">
+              <div>
+                <label for="name" class="block mb-2 font-medium text-gray-900">Your Name</label>
+                <input type="text" id="name" name="name" required class="w-full px-4 py-3 bg-white border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900">
+              </div>
+              
+              <div>
+                <label for="email" class="block mb-2 font-medium text-gray-900">Your Email</label>
+                <input type="email" id="email" name="email" required class="w-full px-4 py-3 bg-white border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900">
+              </div>
+              
+              <div>
+                <label for="message" class="block mb-2 font-medium text-gray-900">Your Message</label>
+                <textarea id="message" name="message" rows="4" required class="w-full px-4 py-3 bg-white border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900"></textarea>
+              </div>
+              
+              <button type="submit" class="px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg font-medium hover:opacity-90 transition w-full text-white">
+                Send Message
+              </button>
+              
+              <div id="formMessage" class="hidden mt-4 p-3 rounded-lg text-center"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 px-6 bg-gray-50 border-t border-gray-200">
+    <div class="container mx-auto">
+      <div class="flex flex-col md:flex-row items-center justify-between">
+        <div class="mb-4 md:mb-0">
+          <a href="#home" class="text-2xl font-bold gradient-text">Sai Praveen Kudapa</a>
+          <p class="text-gray-600 mt-2">Full Stack Developer & Data Specialist</p>
+        </div>
+        
+        <div class="flex space-x-6">
+          <a href="https://www.linkedin.com/in/sai-praveen-k-787257186/" target="_blank" class="text-gray-600 hover:text-gray-900 transition">
+            <i class="bi bi-linkedin text-xl"></i>
+          </a>
+          <a href="https://github.com/saipraveenkudapa" target="_blank" class="text-gray-600 hover:text-gray-900 transition">
+            <i class="bi bi-github text-xl"></i>
+          </a>
+          <a href="mailto:saipraveenkudapa@gmail.com" class="text-gray-600 hover:text-gray-900 transition">
+            <i class="bi bi-envelope text-xl"></i>
+          </a>
+        </div>
+      </div>
+      
+      <div class="border-t border-gray-200 mt-8 pt-8 text-center text-gray-500 text-sm">
+        <p>&copy; <span id="current-year"></span> Sai Praveen Kudapa. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
