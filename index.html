@@ -47,7 +47,7 @@
   <section id="home" class="min-h-screen flex items-center pt-20 pb-16 px-6">
     <div class="container mx-auto">
       <div class="flex flex-col md:flex-row-reverse items-center">
-        <div class="md:w-1/2 mb-12 md:mb-0 md:pl-12" data-aos="fade-left">
+        <div class="md:w-1/2 mb-12 md:mb-0 md:pl-12 order-2 md:order-1" data-aos="fade-left">
           <h1 class="text-4xl md:text-6xl font-bold mb-4">
             Hi, I'm <span class="gradient-text">Sai Praveen Kudapa</span>
           </h1>
@@ -74,7 +74,7 @@
             </a>
           </div>
         </div>
-        <div class="md:w-1/2 flex justify-center" data-aos="fade-right">
+        <div class="md:w-1/2 flex justify-center order-1 md:order-2" data-aos="fade-right">
           <div class="relative floating">
             <div class="w-80 h-80 md:w-[500px] md:h-[500px] bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center profile-ring">
               <div class="w-72 h-72 md:w-[470px] md:h-[470px] bg-white rounded-full overflow-hidden border-4 border-gray-300">
@@ -152,157 +152,6 @@
               Google Data Analytics Certification (2023)
             </span>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Skills Section -->
-  <section class="py-20 px-6 bg-gray-50">
-    <div class="container mx-auto">
-      <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center text-gray-900" data-aos="fade-up">
-        <span class="gradient-text">Technical Skills</span>
-      </h2>
-      
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-6" data-aos="fade-up">
-        <!-- Languages -->
-        <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
-          <div class="flex items-center mb-4">
-            <div class="w-10 h-10 rounded-full bg-blue-500 flex items-center justify-center mr-3">
-              <i class="bi bi-code text-white"></i>
-            </div>
-            <h3 class="text-xl font-bold text-gray-900">Languages</h3>
-          </div>
-          <ul class="space-y-2">
-            <li class="flex items-center">
-              <i class="bi bi-check-circle-fill text-blue-500 mr-2"></i>
-              <span class="text-gray-700">HTML5/CSS3</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bi bi-check-circle-fill text-blue-500 mr-2"></i>
-              <span class="text-gray-700">JavaScript</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bi bi-check-circle-fill text-blue-500 mr-2"></i>
-              <span class="text-gray-700">Python</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bi bi-check-circle-fill text-blue-500 mr-2"></i>
-              <span class="text-gray-700">Core Java</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bi bi-check-circle-fill text-blue-500 mr-2"></i>
-              <span class="text-gray-700">C#</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bi bi-check-circle-fill text-blue-500 mr-2"></i>
-              <span class="text-gray-700">SQL</span>
-            </li>
-          </ul>
-        </div>
-        
-        <!-- Frameworks -->
-        <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
-          <div class="flex items-center mb-4">
-            <div class="w-10 h-10 rounded-full bg-purple-500 flex items-center justify-center mr-3">
-              <i class="bi bi-layers text-white"></i>
-            </div>
-            <h3 class="text-xl font-bold text-gray-900">Frameworks</h3>
-          </div>
-          <ul class="space-y-2">
-            <li class="flex items-center">
-              <i class="bi bi-check-circle-fill text-purple-500 mr-2"></i>
-              <span class="text-gray-700">Svelte/SvelteKit</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bi bi-check-circle-fill text-purple-500 mr-2"></i>
-              <span class="text-gray-700">React/Next.js</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bi bi-check-circle-fill text-purple-500 mr-2"></i>
-              <span class="text-gray-700">Node.js</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bi bi-check-circle-fill text-purple-500 mr-2"></i>
-              <span class="text-gray-700">Three.js</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bi bi-check-circle-fill text-purple-500 mr-2"></i>
-              <span class="text-gray-700">.NET Core</span>
-            </li>
-          </ul>
-        </div>
-        
-        <!-- Cloud & DevOps -->
-        <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
-          <div class="flex items-center mb-4">
-            <div class="w-10 h-10 rounded-full bg-indigo-500 flex items-center justify-center mr-3">
-              <i class="bi bi-cloud text-white"></i>
-            </div>
-            <h3 class="text-xl font-bold text-gray-900">Cloud & DevOps</h3>
-          </div>
-          <ul class="space-y-2">
-            <li class="flex items-center">
-              <i class="bi bi-check-circle-fill text-indigo-500 mr-2"></i>
-              <span class="text-gray-700">AWS (Lambda, S3, EC2)</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bi bi-check-circle-fill text-indigo-500 mr-2"></i>
-              <span class="text-gray-700">Vercel</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bi bi-check-circle-fill text-indigo-500 mr-2"></i>
-              <span class="text-gray-700">Docker/Kubernetes</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bi bi-check-circle-fill text-indigo-500 mr-2"></i>
-              <span class="text-gray-700">Jenkins</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bi bi-check-circle-fill text-indigo-500 mr-2"></i>
-              <span class="text-gray-700">Terraform</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bi bi-check-circle-fill text-indigo-500 mr-2"></i>
-              <span class="text-gray-700">CI/CD Pipelines</span>
-            </li>
-          </ul>
-        </div>
-        
-        <!-- Tools & Other -->
-        <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-200">
-          <div class="flex items-center mb-4">
-            <div class="w-10 h-10 rounded-full bg-pink-500 flex items-center justify-center mr-3">
-              <i class="bi bi-tools text-white"></i>
-            </div>
-            <h3 class="text-xl font-bold text-gray-900">Tools & Other</h3>
-          </div>
-          <ul class="space-y-2">
-            <li class="flex items-center">
-              <i class="bi bi-check-circle-fill text-pink-500 mr-2"></i>
-              <span class="text-gray-700">Git/GitHub</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bi bi-check-circle-fill text-pink-500 mr-2"></i>
-              <span class="text-gray-700">Tableau/Power BI</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bi bi-check-circle-fill text-pink-500 mr-2"></i>
-              <span class="text-gray-700">FFmpeg</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bi bi-check-circle-fill text-pink-500 mr-2"></i>
-              <span class="text-gray-700">Hugging Face</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bi bi-check-circle-fill text-pink-500 mr-2"></i>
-              <span class="text-gray-700">Agile/Scrum</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bi bi-check-circle-fill text-pink-500 mr-2"></i>
-              <span class="text-gray-700">Shopify/Zoey</span>
-            </li>
-          </ul>
         </div>
       </div>
     </div>
